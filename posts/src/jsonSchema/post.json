@@ -1,0 +1,45 @@
+{   
+    "create": {
+      "id": "create",
+      "type": "object",
+      "properties": {
+        "title": {
+            "type": "string",            
+            "required": true
+          },
+        "desc": {
+          "type": "string",
+          "required": true         
+        },
+        "imgUrl": {
+          "type": "string",
+          "required": true,
+          "minLength": 5
+        },
+        "tags": {
+          "type": "array"
+        }
+      }
+    },
+    "reaction": {
+        "id": "reaction",
+        "type": "object",
+        "properties": {         
+          "postId": {
+            "type": "string",
+            "required": true         
+          }
+        }
+    },
+    "search": {
+      "id": "search",
+      "type": "object",
+      "properties": {         
+        "filter": {
+          "type": "string",
+          "required": true         
+        }
+      }
+  }   
+}
+  
