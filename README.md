@@ -57,7 +57,7 @@ $ npm run dev       // run it locally
 
 ## gateway-server usage(PORT: 8000)
 ```terminal
-$ cd comment        // go to comment folder
+$ cd gateway        // go to gateway folder
 $ npm i             // npm install packages
 $ npm start         // start server
 ```
