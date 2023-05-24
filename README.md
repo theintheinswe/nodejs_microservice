@@ -12,7 +12,7 @@ MERN stack is the idea of using Javascript/Node for fullstack web development.
 
 ## clone or download
 ```terminal
-$ git clone https://gitlab.com/dev1703415/nodejs_microservice.git
+$ git clone https://github.com/theintheinswe/nodejs_microservice.git
 $ yarn or npm i
 ```
 
